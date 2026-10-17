@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use ASG-SAM in your research, please cite the published article below."
+type: software
+title: "ASG-SAM: Anisotropic Spectral Gating and Multigranularity Decoding for SAM-Based Infrared Small Target Segmentation"
+version: 1.0.0
+date-released: 2026-10-17
+authors:
+  - family-names: Chen
+    given-names: Riyao
+    orcid: "https://orcid.org/0000-0001-9527-3500"
+  - family-names: Yang
+    given-names: Mingchao
+    orcid: "https://orcid.org/0000-0002-0022-398X"
+  - family-names: Wu
+    given-names: Zehao
+    orcid: "https://orcid.org/0009-0002-8136-5193"
+  - family-names: Xie
+    given-names: Tianming
+    orcid: "https://orcid.org/0009-0005-8020-9262"
+  - family-names: Kang
+    given-names: Wenxiong
+    orcid: "https://orcid.org/0000-0001-9023-7252"
+repository-code: "https://github.com/SCUT-BIP-Lab/ASG-SAM"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "ASG-SAM: Anisotropic Spectral Gating and Multigranularity Decoding for SAM-Based Infrared Small Target Segmentation"
+  authors:
+    - family-names: Chen
+      given-names: Riyao
+    - family-names: Yang
+      given-names: Mingchao
+    - family-names: Wu
+      given-names: Zehao
+    - family-names: Xie
+      given-names: Tianming
+    - family-names: Kang
+      given-names: Wenxiong
+  journal: "IEEE Transactions on Geoscience and Remote Sensing"
+  volume: 64
+  start: 1
+  end: 15
+  year: 2026
+  doi: "10.1109/TGRS.2026.3737463"
+  url: "https://doi.org/10.1109/TGRS.2026.3737463"

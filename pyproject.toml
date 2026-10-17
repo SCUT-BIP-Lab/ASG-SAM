@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asg-sam"
+version = "1.0.0"
+description = "Core model implementation of ASG-SAM for infrared small target segmentation (IEEE TGRS 2026)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "ASG-SAM authors, SCUT BIP Lab"}]
+dependencies = ["torch>=2.1"]
+
+[project.urls]
+Repository = "https://github.com/SCUT-BIP-Lab/ASG-SAM"
+Paper = "https://doi.org/10.1109/TGRS.2026.3737463"
+
+[tool.setuptools.packages.find]
+include = ["asg_sam*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

@@ -1,0 +1,26 @@
+ASG-SAM
+Copyright 2026 ASG-SAM authors
+
+This product includes software adapted from EfficientSAM:
+https://github.com/yformer/EfficientSAM
+Copyright (c) Meta Platforms, Inc. and affiliates.
+Distributed under the Apache License, Version 2.0.
+
+The prompt encoder and two-way transformer also draw on Segment Anything:
+https://github.com/facebookresearch/segment-anything
+Copyright (c) Meta Platforms, Inc. and affiliates.
+Distributed under the Apache License, Version 2.0.
+
+The additional detail-token mask path follows SAM-HQ:
+https://github.com/SysCV/sam-hq
+Distributed under the Apache License, Version 2.0.
+
+The MLP implementation is adapted from EfficientSAM and MaskFormer:
+https://github.com/facebookresearch/MaskFormer
+Copyright (c) Facebook, Inc. and its affiliates.
+Distributed under the Apache License, Version 2.0.
+
+Modifications by the ASG-SAM authors include polar-parameterized anisotropic
+spectral gating, intermediate-feature recycling, learnable multigranularity
+branches, adjacent-granularity differential fusion, global-detail-token
+routing, and the assembled ASG-SAM model interface.
